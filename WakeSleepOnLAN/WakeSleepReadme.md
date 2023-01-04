@@ -19,3 +19,7 @@ I had a plex server that I wanted to be able to turn on and off with a simple co
 ## Appendix
 Useful for getting back into a switch that is recognized by Google Home, this app and device were previously not working with the code from ramdev so I made it just a regular switch, which also helps simplify the code
 https://docs2.hubitat.com/developer/driver/overview
+
+
+You can hit the endpoint to stop your pc by getting the server output and just loading it in a web browser, you will have to allow the connections from outside sources
+Example load up `192.168.1.1:8000` and it should make the pc sleep
